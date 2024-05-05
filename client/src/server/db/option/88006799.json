@@ -1,0 +1,40 @@
+{
+  "result": true,
+  "data": {
+    "type": "COMBINATION",
+    "names": ["옵션"],
+    "options": [
+      {
+        "id": 419640435,
+        "name": "옵션",
+        "value": "#재창조+브러쉬3종",
+        "stock": 1098,
+        "addPrice": 0,
+        "level": 0,
+        "images": [],
+        "options": []
+      },
+      {
+        "id": 419640436,
+        "name": "옵션",
+        "value": "#재탄생+브러쉬3종",
+        "stock": 244,
+        "addPrice": 0,
+        "level": 0,
+        "images": [],
+        "options": []
+      },
+      {
+        "id": 445691790,
+        "name": "옵션",
+        "value": "#재조명+브러쉬3종",
+        "stock": 204,
+        "addPrice": 0,
+        "level": 0,
+        "images": [],
+        "options": []
+      }
+    ],
+    "customs": []
+  }
+}

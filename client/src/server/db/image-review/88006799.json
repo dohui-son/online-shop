@@ -1,0 +1,1425 @@
+{
+  "result": true,
+  "data": {
+    "contents": [
+      {
+        "id": "659786c547171430cdd153aa",
+        "createdAt": "20240105133413",
+        "displayStatus": "OPEN",
+        "orderId": 2349064384,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재조명+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240105133123_1c7e1d7de7634bddae35701bd301ff9e.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133123_1c7e1d7de7634bddae35701bd301ff9e.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133123_1c7e1d7de7634bddae35701bd301ff9e.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133123_1c7e1d7de7634bddae35701bd301ff9e.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133123_1c7e1d7de7634bddae35701bd301ff9e.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 2837,
+            "height": 3764,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240105133147_af20517c15174392be11a5da1532e947.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133147_af20517c15174392be11a5da1532e947.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133147_af20517c15174392be11a5da1532e947.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133147_af20517c15174392be11a5da1532e947.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133147_af20517c15174392be11a5da1532e947.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 3024,
+            "height": 3136,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240105133203_4b33951eb6f04019b801f90ca14e5f86.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133203_4b33951eb6f04019b801f90ca14e5f86.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133203_4b33951eb6f04019b801f90ca14e5f86.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133203_4b33951eb6f04019b801f90ca14e5f86.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S192x192.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133203_4b33951eb6f04019b801f90ca14e5f86.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 3024,
+            "height": 2598,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240105133209_0eb5b35aa5404461b782d1ce2e2eaddb.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133209_0eb5b35aa5404461b782d1ce2e2eaddb.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133209_0eb5b35aa5404461b782d1ce2e2eaddb.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133209_0eb5b35aa5404461b782d1ce2e2eaddb.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S192x192.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133209_0eb5b35aa5404461b782d1ce2e2eaddb.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240105133214_0e7266aea7ed4805b658eac75aa59398.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133214_0e7266aea7ed4805b658eac75aa59398.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133214_0e7266aea7ed4805b658eac75aa59398.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133214_0e7266aea7ed4805b658eac75aa59398.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S192x192.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105133214_0e7266aea7ed4805b658eac75aa59398.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "전작 시리즈가 조았어서 뉴ㆍ페도 기대해 봅니다 ㅋㅋ \n솔도 주시고 디자인이나 색감도 조쿠~가루입자도 곱네요~",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#cbb7c3",
+          "displayName": "♡>*********",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F6.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/659786c547171430cdd153aa/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "608c01545fd031667d5e4f20",
+        "createdAt": "20210430220836",
+        "displayStatus": "OPEN",
+        "orderId": 1221617623,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "1호 재창조",
+        "imageViews": [
+          {
+            "width": 1920,
+            "height": 2560,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20210430220357_0766b4c8aa044d0cb576920e1b2ff7cb.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220357_0766b4c8aa044d0cb576920e1b2ff7cb.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220357_0766b4c8aa044d0cb576920e1b2ff7cb.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220357_0766b4c8aa044d0cb576920e1b2ff7cb.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220357_0766b4c8aa044d0cb576920e1b2ff7cb.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 1920,
+            "height": 2560,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20210430220414_2087c8cc8478470ca292a1fe7bdae4c4.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220414_2087c8cc8478470ca292a1fe7bdae4c4.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220414_2087c8cc8478470ca292a1fe7bdae4c4.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220414_2087c8cc8478470ca292a1fe7bdae4c4.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220414_2087c8cc8478470ca292a1fe7bdae4c4.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20210430220416_ef8d614b837541a2a43bbb8e62e11de0.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220416_ef8d614b837541a2a43bbb8e62e11de0.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220416_ef8d614b837541a2a43bbb8e62e11de0.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220416_ef8d614b837541a2a43bbb8e62e11de0.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S192x192.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220416_ef8d614b837541a2a43bbb8e62e11de0.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20210430220419_9b2d494272c74515bc129811d975b06d.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220419_9b2d494272c74515bc129811d975b06d.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220419_9b2d494272c74515bc129811d975b06d.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220419_9b2d494272c74515bc129811d975b06d.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S192x192.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220419_9b2d494272c74515bc129811d975b06d.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20210430220422_89e8bc87cc4e48e1b0f206e86e44bc5e.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220422_89e8bc87cc4e48e1b0f206e86e44bc5e.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220422_89e8bc87cc4e48e1b0f206e86e44bc5e.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220422_89e8bc87cc4e48e1b0f206e86e44bc5e.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S192x192.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20210430220422_89e8bc87cc4e48e1b0f206e86e44bc5e.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "아직 사용해보기 전이지만 믿고 사는 갱상도화장쟁이 조효진님의 꼴라보 작품이기도하고 이 가격에 이 구성, 퀄리티 미쳣음...  브러쉬 진짜 보들 탄탄하고 쉐딩 케이스는 벨벳 질감에 자석여닫이에오ㅠㅠㅠㅠ케이스 조차 심플뷰티플;;\r\n그리고 친절 세세한 쉐딩 사용법 설명서까지 있어서 쉐알못이지만 믿고 질러버린 저도 쉐딩 열시미 잘 하규 댕길거같네여 ^~^♡ \r\n진짜 제가 애정하는 또뛰드랑 조효진님의 꼴라보 환상의 작품...제가 깎을 살이 없을때까지 나와주세요...사랑해 그대들...♡\r\n\r\n아근데 나는 카드케이스 못받.....제품이라도 산게 다행. ㅎ",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "displayName": ".",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fp.kakaocdn.net%2Fth%2Ftalkp%2FwoFaOIKjXp%2Fl9ck79Cbb2SDxXX2x7aSK0%2F79uss6_110x110_c.jpg&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 10,
+          "likeUrl": "/etudehouse/reviews/608c01545fd031667d5e4f20/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "63f94d6463492f6bbff747e8",
+        "createdAt": "20230225085100",
+        "displayStatus": "OPEN",
+        "orderId": 2003074998,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 2160,
+            "height": 2160,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20230225084950_3d8fe8c21ecc4d7286c639df25b96a25.jpeg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_3d8fe8c21ecc4d7286c639df25b96a25.jpeg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_3d8fe8c21ecc4d7286c639df25b96a25.jpeg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_3d8fe8c21ecc4d7286c639df25b96a25.jpeg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_3d8fe8c21ecc4d7286c639df25b96a25.jpeg&scode=shoppingstore"
+          },
+          {
+            "width": 2160,
+            "height": 2160,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20230225084950_0fbb235a33d945639331b1585329f711.jpeg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_0fbb235a33d945639331b1585329f711.jpeg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_0fbb235a33d945639331b1585329f711.jpeg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_0fbb235a33d945639331b1585329f711.jpeg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_0fbb235a33d945639331b1585329f711.jpeg&scode=shoppingstore"
+          },
+          {
+            "width": 2160,
+            "height": 2160,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20230225084950_b76a83f3c1b04cfb856733a321c55bf9.jpeg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_b76a83f3c1b04cfb856733a321c55bf9.jpeg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_b76a83f3c1b04cfb856733a321c55bf9.jpeg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_b76a83f3c1b04cfb856733a321c55bf9.jpeg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S192x192.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_b76a83f3c1b04cfb856733a321c55bf9.jpeg&scode=shoppingstore"
+          },
+          {
+            "width": 2160,
+            "height": 2160,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20230225084950_77501620da67492ab8ac16feeb81727b.jpeg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_77501620da67492ab8ac16feeb81727b.jpeg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_77501620da67492ab8ac16feeb81727b.jpeg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_77501620da67492ab8ac16feeb81727b.jpeg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S192x192.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084950_77501620da67492ab8ac16feeb81727b.jpeg&scode=shoppingstore"
+          },
+          {
+            "width": 2160,
+            "height": 2160,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20230225084951_2d475316996b4c7a97084046bcb6ace1.jpeg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084951_2d475316996b4c7a97084046bcb6ace1.jpeg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084951_2d475316996b4c7a97084046bcb6ace1.jpeg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084951_2d475316996b4c7a97084046bcb6ace1.jpeg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S192x192.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230225084951_2d475316996b4c7a97084046bcb6ace1.jpeg&scode=shoppingstore"
+          }
+        ],
+        "content": "가격대가 있다 싶었는데 세트가 제대로 입니다!!\n브러쉬 좋구요! 포장 잘왔어요. 감사합니다.",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#cbb7c3",
+          "displayName": "강정*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F6.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 1,
+          "likeUrl": "/etudehouse/reviews/63f94d6463492f6bbff747e8/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "65963d4859218d1d86c8670c",
+        "createdAt": "20240104140824",
+        "displayStatus": "OPEN",
+        "orderId": 2345090457,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3000,
+            "height": 4000,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240104140110_55b84ceb4ea74dd9ba87b38259ee4b79.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104140110_55b84ceb4ea74dd9ba87b38259ee4b79.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104140110_55b84ceb4ea74dd9ba87b38259ee4b79.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104140110_55b84ceb4ea74dd9ba87b38259ee4b79.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104140110_55b84ceb4ea74dd9ba87b38259ee4b79.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240104140120_bacd23ec251e47e8a4088e1b463df35e.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104140120_bacd23ec251e47e8a4088e1b463df35e.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104140120_bacd23ec251e47e8a4088e1b463df35e.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104140120_bacd23ec251e47e8a4088e1b463df35e.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104140120_bacd23ec251e47e8a4088e1b463df35e.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "그냥,저냥,뭐~~~~\n얼굴형이 달걀형인터라(특별히 쉐딩하고 어쩌고 할,꺼린 없지만~~\uD83E\uDD14\n좀 입체적인 화장을 한번 시도해볼까 싶음에 무턱대고 그냥~~주문 해봤구요~01/04(목)총알배송 받았네요~~\n주문시엔,브러쉬가 많은걸로 잘못 봤었나봐요,제가~~~\n배송온 상품 꺼내보고 잠깐!\uD83D\uDE31놀랐네요,브러싀 솔이 3개밖엔!없어서요~~~^^\n브러쉬가 요거밖엔!없었나!?싶음에,의아깜놀!했었네요~~\n잘 한번~~이쁘게,쉐딩 해보거씁니다요~~~\uD83D\uDE05",
+        "ratingView": {
+          "productStarRating": 3,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#cbb7c3",
+          "displayName": "박 **",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F9.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/65963d4859218d1d86c8670c/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "65f6e90af20be461de9ad852",
+        "createdAt": "20240317215850",
+        "displayStatus": "OPEN",
+        "orderId": 2430604652,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": false,
+        "optionText": "#재조명+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 2992,
+            "height": 2553,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240317215733_17b02f7e4ed64e5d9536438f3d0f6853.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240317215733_17b02f7e4ed64e5d9536438f3d0f6853.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240317215733_17b02f7e4ed64e5d9536438f3d0f6853.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240317215733_17b02f7e4ed64e5d9536438f3d0f6853.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240317215733_17b02f7e4ed64e5d9536438f3d0f6853.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "아직 사용은 안했지만 두가지사서 여러가지 오니 마음은 풍족하네요! 근데 구매인증 당첨된건 언제 따로 연락이 오는걸까요...? 따로 개별연락이 간다고 안내가되있던데...",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#f5e7d9",
+          "displayName": "지*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F9.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/65f6e90af20be461de9ad852/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "65967597e6bd730b8416dd7e",
+        "createdAt": "20240104180839",
+        "displayStatus": "OPEN",
+        "orderId": 2349082665,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 1836,
+            "height": 4080,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240104180630_d3a86efc4c184f2c9cdc8095ed1d5236.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104180630_d3a86efc4c184f2c9cdc8095ed1d5236.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104180630_d3a86efc4c184f2c9cdc8095ed1d5236.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104180630_d3a86efc4c184f2c9cdc8095ed1d5236.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104180630_d3a86efc4c184f2c9cdc8095ed1d5236.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "파우더 색상 맘에 들고요 케이스도 심플하면서 튼튼해 보이고 고급스러워요. 자석으로 여닫게 되어 있어서 더 좋네요. 붓도 아주 보들보들하니 좋습니다. 잘 쓸게요",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#e7eded",
+          "displayName": "자운*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F1.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/65967597e6bd730b8416dd7e/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "65f93eff01a44d52241d8e49",
+        "createdAt": "20240319163007",
+        "displayStatus": "OPEN",
+        "orderId": 2430790828,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3000,
+            "height": 4000,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240319162810_2a4bcbf64dd34bfa89259fb871058b7e.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240319162810_2a4bcbf64dd34bfa89259fb871058b7e.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240319162810_2a4bcbf64dd34bfa89259fb871058b7e.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240319162810_2a4bcbf64dd34bfa89259fb871058b7e.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240319162810_2a4bcbf64dd34bfa89259fb871058b7e.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "구성품 너무 맘에 듭니다. \n색이 생각했던 것 보다는 살짝 어두운 것 같아서 밝은 색은 따로 구매해야 할 것 같아여ㅠㅠ",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#d6d6d6",
+          "displayName": "김아*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F5.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/65f93eff01a44d52241d8e49/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "659d1832f9396c2a001d406e",
+        "createdAt": "20240109185602",
+        "displayStatus": "OPEN",
+        "orderId": 2345729218,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재조명+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3000,
+            "height": 4000,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240109185248_6845124fe0ab4fc1bbf60421a71d88d9.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240109185248_6845124fe0ab4fc1bbf60421a71d88d9.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240109185248_6845124fe0ab4fc1bbf60421a71d88d9.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240109185248_6845124fe0ab4fc1bbf60421a71d88d9.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240109185248_6845124fe0ab4fc1bbf60421a71d88d9.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "사려고했던 쉐딩인데  톡딜에 떠서  득템한거같아요.\n질감과 터치색감  이제품이 제일 맘에들어서 계속 재구매중이에요.",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#eec4c5",
+          "displayName": "♡♡*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F7.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/659d1832f9396c2a001d406e/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "659de6824dc1875efcfeab02",
+        "createdAt": "20240110093618",
+        "displayStatus": "OPEN",
+        "orderId": 2349261808,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재조명+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240110093515_63c0d2b9d5ea49e7ad228b04e4d002ae.jpeg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240110093515_63c0d2b9d5ea49e7ad228b04e4d002ae.jpeg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240110093515_63c0d2b9d5ea49e7ad228b04e4d002ae.jpeg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240110093515_63c0d2b9d5ea49e7ad228b04e4d002ae.jpeg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240110093515_63c0d2b9d5ea49e7ad228b04e4d002ae.jpeg&scode=shoppingstore"
+          }
+        ],
+        "content": "브러쉬도 좋아보이고 신상 컬러가 좋다는 소문을 듣고 구매했어요. 양이 정말 많아서 다쓰기 어려울거같아요 ㅎㅎ",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#cbb7c3",
+          "displayName": "정다*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F5.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/659de6824dc1875efcfeab02/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "659869314157a163c07dc2f0",
+        "createdAt": "20240106054017",
+        "displayStatus": "OPEN",
+        "orderId": 2346390292,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재조명+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 2268,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240106053735_ea2cba6ec06147649c642b924d8e69cd.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240106053735_ea2cba6ec06147649c642b924d8e69cd.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240106053735_ea2cba6ec06147649c642b924d8e69cd.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240106053735_ea2cba6ec06147649c642b924d8e69cd.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240106053735_ea2cba6ec06147649c642b924d8e69cd.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "색조화장품은 처음구입해보네요ㆍ\n설명서가   있어서  유용하게사용할수 있을것 같습니댜",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#e7eded",
+          "displayName": "김형*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F5.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/659869314157a163c07dc2f0/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "6596d77ece12f8722a6321e5",
+        "createdAt": "20240105010622",
+        "displayStatus": "OPEN",
+        "orderId": 2345622827,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3347,
+            "height": 1784,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240105010435_ea97c511adeb47b5a3080445e1288340.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105010435_ea97c511adeb47b5a3080445e1288340.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105010435_ea97c511adeb47b5a3080445e1288340.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105010435_ea97c511adeb47b5a3080445e1288340.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240105010435_ea97c511adeb47b5a3080445e1288340.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "꼼꼼한 포장에 고급스런  브러쉬까지.\n열심히 가이드 보면서 연습해 볼게요.",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#eec4c5",
+          "displayName": "Kw*******",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F2.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/6596d77ece12f8722a6321e5/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "645b0de5234243557783d3c8",
+        "createdAt": "20230510122213",
+        "displayStatus": "OPEN",
+        "orderId": 2082156434,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 4032,
+            "height": 2268,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20230510121750_be15ab633c5147c680a2ee51ade1af04.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121750_be15ab633c5147c680a2ee51ade1af04.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121750_be15ab633c5147c680a2ee51ade1af04.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121750_be15ab633c5147c680a2ee51ade1af04.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121750_be15ab633c5147c680a2ee51ade1af04.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 3024,
+            "height": 3024,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20230510121757_26618774662e413f96226d6e8f0cba47.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121757_26618774662e413f96226d6e8f0cba47.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121757_26618774662e413f96226d6e8f0cba47.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121757_26618774662e413f96226d6e8f0cba47.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121757_26618774662e413f96226d6e8f0cba47.jpg&scode=shoppingstore"
+          },
+          {
+            "width": 2268,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20230510121806_9099e72c57874b4681b331dfa2c70198.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121806_9099e72c57874b4681b331dfa2c70198.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121806_9099e72c57874b4681b331dfa2c70198.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121806_9099e72c57874b4681b331dfa2c70198.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S288x288.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20230510121806_9099e72c57874b4681b331dfa2c70198.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "사실 색조화장 잘안하는 40대후반 1인임\n그러치만 화장품에 관심은 엄청많은 1인임\n자주사용하지안는 쉐딩같은 경우 한번사면 엄청오래쓰는데 어느날 갑자기 사라짐\n대학생 딸아이가 내가 안쓴다고 자기자취방으로 가져가 버린거임\n그러고나니 더 쉐딩이 하고싶어짐ㅋㅋ\n그러던차 이제품 핫딜뜸\n너무나 혜자로운 구성이 쏙맘에들엇음\n믿고 써도 될만한 조효진님이라 더욱신뢰됨\n자연스런 쉐딩이 아주 맘에듬",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#f5e7d9",
+          "displayName": "임은*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F2.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 10,
+          "likeUrl": "/etudehouse/reviews/645b0de5234243557783d3c8/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "65965e5e47171430cdd152a7",
+        "createdAt": "20240104162934",
+        "displayStatus": "OPEN",
+        "orderId": 2345139526,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 1079,
+            "height": 586,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240104162329_11d3e6b518e54e3f9a27df86860abc66.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104162329_11d3e6b518e54e3f9a27df86860abc66.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104162329_11d3e6b518e54e3f9a27df86860abc66.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104162329_11d3e6b518e54e3f9a27df86860abc66.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104162329_11d3e6b518e54e3f9a27df86860abc66.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "색감도좋고 쉐딩방법 설명도 있어 잘활용해 사용할 수 있을것 같다.",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "displayName": "조혜정",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fp.kakaocdn.net%2Fth%2Ftalkp%2FwoEiicFCxx%2FUFRs8WgWXNJJI3ja4tDKCK%2Ff5g8y8_110x110_c.jpg&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/65965e5e47171430cdd152a7/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "6596812b799bd947113c411b",
+        "createdAt": "20240104185803",
+        "displayStatus": "OPEN",
+        "orderId": 2345111816,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3000,
+            "height": 4000,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240104185442_b7d22798052e409997a400cc1a952252.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104185442_b7d22798052e409997a400cc1a952252.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104185442_b7d22798052e409997a400cc1a952252.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104185442_b7d22798052e409997a400cc1a952252.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104185442_b7d22798052e409997a400cc1a952252.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "생각한것보다   그냥 soso해요 기대 많이 했는데 늘 그러네요 광고 그대로 받아들이기보다 그기에 50프로라고 생각함 딱 맞는것같애요",
+        "ratingView": {
+          "productStarRating": 3,
+          "deliveryStarRating": 2,
+          "productStarRatingName": "만족해요",
+          "deliveryStarRatingName": "아쉬워요"
+        },
+        "writer": {
+          "backgroundColor": "#e7eded",
+          "displayName": "by***",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F1.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/6596812b799bd947113c411b/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "659c2eb04dc1875efcfea9c5",
+        "createdAt": "20240109021944",
+        "displayStatus": "OPEN",
+        "orderId": 2348938101,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재조명+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3000,
+            "height": 4000,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240109021747_c8b55bebd88147d5a3738c5f4dba1708.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240109021747_c8b55bebd88147d5a3738c5f4dba1708.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240109021747_c8b55bebd88147d5a3738c5f4dba1708.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240109021747_c8b55bebd88147d5a3738c5f4dba1708.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240109021747_c8b55bebd88147d5a3738c5f4dba1708.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "구매하려고 마음먹고있었는데 톡딜떠서 얼른 구매했네요.",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#f5e7d9",
+          "displayName": "조미*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F1.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/659c2eb04dc1875efcfea9c5/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "659640605004c64361e2fb5d",
+        "createdAt": "20240104142136",
+        "displayStatus": "OPEN",
+        "orderId": 2346067279,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 2268,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240104142103_7de2dfa0f8c246189e622276b3aa061a.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104142103_7de2dfa0f8c246189e622276b3aa061a.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104142103_7de2dfa0f8c246189e622276b3aa061a.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104142103_7de2dfa0f8c246189e622276b3aa061a.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104142103_7de2dfa0f8c246189e622276b3aa061a.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "기분 전환으로 붓도 받고 득텀한 기분",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#f5e7d9",
+          "displayName": "종훈*******",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F6.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 1,
+          "likeUrl": "/etudehouse/reviews/659640605004c64361e2fb5d/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "65989e1d74596c06daf1ef88",
+        "createdAt": "20240106092605",
+        "displayStatus": "OPEN",
+        "orderId": 2345447778,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240106092449_688d04d447634043a50a69e6e3e16ae5.jpeg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240106092449_688d04d447634043a50a69e6e3e16ae5.jpeg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240106092449_688d04d447634043a50a69e6e3e16ae5.jpeg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240106092449_688d04d447634043a50a69e6e3e16ae5.jpeg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240106092449_688d04d447634043a50a69e6e3e16ae5.jpeg&scode=shoppingstore"
+          }
+        ],
+        "content": "예쁘게 포장되어 왔어요\n동봉되어 있는 설명서대로 잘 사용해봐야죠\n리뷰가 좋아 기대됩니다.",
+        "ratingView": {
+          "productStarRating": 3,
+          "deliveryStarRating": 3,
+          "productStarRatingName": "만족해요",
+          "deliveryStarRatingName": "만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#e7eded",
+          "displayName": "현*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F9.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/65989e1d74596c06daf1ef88/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "65f7cd38aae8950478ed7333",
+        "createdAt": "20240318141224",
+        "displayStatus": "OPEN",
+        "orderId": 2432085441,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 2880,
+            "height": 2160,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240318141154_d3df39dda16d4efc9c06c82af5369504.jpeg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240318141154_d3df39dda16d4efc9c06c82af5369504.jpeg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240318141154_d3df39dda16d4efc9c06c82af5369504.jpeg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240318141154_d3df39dda16d4efc9c06c82af5369504.jpeg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240318141154_d3df39dda16d4efc9c06c82af5369504.jpeg&scode=shoppingstore"
+          }
+        ],
+        "content": "색상도 예쁘고 구성도 맘에 듭니다",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#f5e7d9",
+          "displayName": "서채*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F3.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/65f7cd38aae8950478ed7333/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "659657daee554b44b2befffc",
+        "createdAt": "20240104160146",
+        "displayStatus": "OPEN",
+        "orderId": 2347142748,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240104160047_67563165345448a299eb483a26529a67.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104160047_67563165345448a299eb483a26529a67.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104160047_67563165345448a299eb483a26529a67.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104160047_67563165345448a299eb483a26529a67.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104160047_67563165345448a299eb483a26529a67.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "가격대비 너무 좋은제품 감사합니다",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#eec4c5",
+          "displayName": "마음*******",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F6.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/659657daee554b44b2befffc/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "65965707db7f457428ec0a4d",
+        "createdAt": "20240104155815",
+        "displayStatus": "OPEN",
+        "orderId": 2345612256,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240104155756_bfa8b1b340f842dc89e5f4ca7ec63768.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104155756_bfa8b1b340f842dc89e5f4ca7ec63768.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104155756_bfa8b1b340f842dc89e5f4ca7ec63768.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104155756_bfa8b1b340f842dc89e5f4ca7ec63768.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240104155756_bfa8b1b340f842dc89e5f4ca7ec63768.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "도착  잘쓸게요~~~~^^",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#f5e7d9",
+          "displayName": "하옥*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F7.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 1,
+          "likeUrl": "/etudehouse/reviews/65965707db7f457428ec0a4d/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      },
+      {
+        "id": "65f55f95dec3690db592f1fd",
+        "createdAt": "20240316180005",
+        "displayStatus": "OPEN",
+        "orderId": 2431360332,
+        "productId": 88006799,
+        "domain": "etudehouse",
+        "optionDisplayable": true,
+        "optionText": "#재창조+브러쉬3종",
+        "imageViews": [
+          {
+            "width": 4032,
+            "height": 1816,
+            "originUrl": "https://st.kakaocdn.net/shoppingstore/store/review/20240316175943_efd92308955b47f4bb6d18bae865a71c.jpg",
+            "originThumbnailUrl": "https://st.kakaocdn.net/thumb/@1x/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240316175943_efd92308955b47f4bb6d18bae865a71c.jpg",
+            "previewThumbnailUrl": "https://st.kakaocdn.net/thumb/S80x80/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240316175943_efd92308955b47f4bb6d18bae865a71c.jpg&scode=shoppingstore",
+            "detailThumbnailUrl": "https://st.kakaocdn.net/thumb/R1500x0/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240316175943_efd92308955b47f4bb6d18bae865a71c.jpg",
+            "bubbleThumbnailUrl": "https://st.kakaocdn.net/thumb/S578x578.fjpg/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fstore%2Freview%2F20240316175943_efd92308955b47f4bb6d18bae865a71c.jpg&scode=shoppingstore"
+          }
+        ],
+        "content": "배송빠르도 색좋아보여요~",
+        "ratingView": {
+          "productStarRating": 4,
+          "deliveryStarRating": 4,
+          "productStarRatingName": "매우 만족해요",
+          "deliveryStarRatingName": "매우 만족해요"
+        },
+        "writer": {
+          "backgroundColor": "#f5e7d9",
+          "displayName": "Z*",
+          "imageUrl": "https://st.kakaocdn.net/thumb/S70x70/?fname=https%3A%2F%2Fst.kakaocdn.net%2Fshoppingstore%2Fdefault%2Ffriends%2Fv2%2F9.png&scode=shoppingstore"
+        },
+        "likeView": {
+          "viewerLiked": false,
+          "likeCount": 0,
+          "likeUrl": "/etudehouse/reviews/65f55f95dec3690db592f1fd/like"
+        },
+        "storeRecommendationReviewView": {
+          "used": false,
+          "pointPaid": false
+        },
+        "productStatus": "ON_SALE",
+        "productDetailReviewDiscountView": {
+          "discountType": "IMMEDIATE",
+          "originalPrice": 40000,
+          "totalDiscountedPrice": 28000
+        },
+        "previewProduct": {
+          "name": "에뛰드 조효진 그림자 쉐딩+브러쉬 3종 세트",
+          "imageUrl": "https://st.kakaocdn.net/shoppingstore/product/20231026100806_06a27a2847c548099798daa028d6c657.jpg",
+          "storeName": "에뛰드",
+          "linkUrl": "/etudehouse/products/88006799",
+          "isAdult": false
+        },
+        "storeProfileImage": "https://st.kakaocdn.net/shoppingstore/store/20230510173825_d51995d5ad854b7a9326d94acd4fae01.jpg",
+        "hasAdditionalOptionPrice": false,
+        "categoryId": "101103103110",
+        "categoryName": "메이크업 브러쉬",
+        "storeId": 95,
+        "isTalkdealProduct": false
+      }
+    ],
+    "timestamp": 1711724280000,
+    "page": 0,
+    "totalCount": 192,
+    "last": false
+  }
+}

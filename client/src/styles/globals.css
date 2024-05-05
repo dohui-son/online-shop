@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: HelveticaNeue, tahoma, Apple SD Gothic Neo, Malgun Gothic,
+    \b9d1\c740\ace0\b515, dotum, \b3cb\c6c0, sans-serif;
+
+  --color-black: #000;
+  --color-black-main: #333;
+  --color-black-dark: #222;
+
+  --color-smoke-main: #e5e5e5;
+  --color-smoke-light: #fafafa;
+  --color-smoke-dark: #e3e3e3;
+  --color-smoke-cool: #e7e8eb;
+  --color-smoke-cool-light: #f2f6f8;
+  --color-smoke-cool-dark: #343a40;
+
+  --color-grey-main: #666;
+  --color-grey-dark: #999;
+  --color-grey-light: #d5d5d5;
+
+  --color-white: #fff;
+  --color-white-main: #e0e0e0;
+
+  --color-blue: #4684e9;
+  --color-blue-light: #dee0e6;
+
+  --color-yellow: #ffeb00;
+  --color-yellow-light: #fbefaa;
+}
+
+html,
+body {
+  width: 100vw;
+  min-width: 1280px;
+  height: 100vh;
+  padding: 0px;
+  font-family: HelveticaNeue, tahoma, Apple SD Gothic Neo, Malgun Gothic,
+    \b9d1\c740\ace0\b515, dotum, \b3cb\c6c0, sans-serif;
+  color: #333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
