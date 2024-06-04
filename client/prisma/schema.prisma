@@ -104,7 +104,7 @@ model Product {
   status                      String
   description                 String?
   instantOrder                Boolean?
-  quantity                    Quantity
+  quantity                    Quantity?
   adultOnly                   Boolean?
   isLiquor                    Boolean?
   minorPurchasable            Boolean?
@@ -116,22 +116,27 @@ model Product {
   expectedAccumulatePoint     Int?
   preventCartOrder            Boolean?
   shoppingReward              Boolean?
-  image                       Image
+  images                       Image[]
   talkDeal                    TalkDeal?
-  delivery                    Delivery
-  originArea                  OriginArea?
+  delivery                    Delivery?
   taxDeduction                Boolean?
   gift                        Gift?
-  store                       Store
+  store                       Store @relation(fields: [storeId], references: [id])
+  storeId                     Int
   category                    Category @relation(fields: [categoryId], references: [id])
   categoryId                  String
-  price                       Price
+  price                       Price?
   review                      Review?
+
+  banners Banner[]
+  topReviews TopReview[]
+  originAreas OriginArea[]
 }
 
 model Quantity {
   id                  Int @id @default(autoincrement())
-  product             Product @relation(fields: [id], references: [id])
+  product             Product @relation(fields: [productId], references: [id])
+  productId           Int @unique
   minPurchase         Int
   maxPurchase         Int
   maxPurchaseOfBuyer  Int
@@ -146,20 +151,19 @@ model Booked {
 }
 
 model Image {
+  id Int @id @default(autoincrement())
   product                   Product @relation(fields: [productId], references: [id])
   productId                 Int
   imageRatio                String
   images                    String[]
   sharingImageUrl           String
   affiliateSharingImageUrl String
-
-  @@id([productId])
 }
 
 model TalkDeal {
   id                   Int      @id
   product              Product  @relation(fields: [productId], references: [id])
-  productId            Int
+  productId            Int @unique
   status               String
   groupSize            Int
   period               DateTime[]
@@ -212,11 +216,15 @@ model Store {
   trackId        String?
   subscribed     Boolean?
   fresh          Boolean?
+
+  products Product[]
 }
 
 model Category {
   id          String  @id
   name        String
+
+  products Product[]
 }
 
 model Price {
@@ -228,25 +236,6 @@ model Price {
   minDiscountedPrice      Int
   maxDiscountedPrice      Int
   totalDiscountedPrice    Int
-
-  @@id([productId])
-}
-
-model Review {
-  product                       Product @relation(fields: [productId], references: [id])
-  productId                     Int
-  qnaCount                      Int
-  reviewCount                   Int
-  averageRating                 Int
-  totalProductStarRating        Int
-  totalDeliveryStarRating       Int
-  productPositivePercentage     Int
-  deliveryPositivePercentage    Int
-  productStar1Percentage       Int
-  productStar2Percentage       Int
-  productStar3Percentage       Int
-  productStar4Percentage       Int
-  topReviews                    TopReview[]
 
   @@id([productId])
 }
@@ -265,6 +254,25 @@ model TopReview {
   imageUrl                 String
   backgroundColor          String?
 }
+
+model Review {
+  @@id([productId])
+  product                       Product @relation(fields: [productId], references: [id])
+  productId                     Int
+  qnaCount                      Int
+  reviewCount                   Int
+  averageRating                 Int
+  totalProductStarRating        Int
+  totalDeliveryStarRating       Int
+  productPositivePercentage     Int
+  deliveryPositivePercentage    Int
+  productStar1Percentage       Int
+  productStar2Percentage       Int
+  productStar3Percentage       Int
+  productStar4Percentage       Int
+}
+
+
 
 model Banner {
   id                 Int      @id
