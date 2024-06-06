@@ -28,8 +28,6 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const queryClient = new QueryClient();
-
   return (
     <html lang="en">
       <head></head>
