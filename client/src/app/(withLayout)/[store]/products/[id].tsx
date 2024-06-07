@@ -1,3 +1,4 @@
+"use client";
 import { StoreNav } from "@/component/store/StoreNav";
 import { OptionSelect } from "@/component/store/product/OptionSelect";
 import { ProductInfoSection } from "@/component/store/product/ProductInfoSection";

@@ -1,51 +1,43 @@
 "use client";
 import { DefaultWrapper } from "@/component/Wrapper";
 
-import { SLIDE } from "@/lib/constant/carousel";
 import { Carousel } from "@/component/common/Carousel";
+import { SLIDE } from "@/lib/constant/carousel";
 import { DEAL_TITLE, SHORTCUT_ITEMS } from "@/lib/constant/shortCutMenu";
 
-import { useRouter } from "next/navigation";
-import { RouteKey } from "@/lib/type/route";
-import { TotalDealContainer } from "@/component/main/TotalDealContainer";
-import { MainContainer } from "@/component/main/MainContainer";
-import { SideContainer } from "@/component/main/SideContainer";
 import { Nav } from "@/component/main/CategoryNav";
-import { TODAY_CATEGORIES, TOTAL_CATEGORIES } from "@/lib/constant/category";
 import { MainCard } from "@/component/main/MainCard";
-import { MOCK_PRODUCT_INFO } from "@/lib/constant/server";
+import { MainContainer } from "@/component/main/MainContainer";
 import { Grid } from "@/component/main/MainGridWrapper";
-import styled from "@emotion/styled";
-import { SideAdCard } from "@/component/main/SideAdCard";
 import { ShortcutMenu } from "@/component/main/ShortcutMenu";
+import { SideAdCard } from "@/component/main/SideAdCard";
+import { SideContainer } from "@/component/main/SideContainer";
+import { TotalDealContainer } from "@/component/main/TotalDealContainer";
+import { TODAY_CATEGORIES, TOTAL_CATEGORIES } from "@/lib/constant/category";
+import { MOCK_PRODUCT_INFO } from "@/lib/constant/server";
+import { RouteKey } from "@/lib/type/route";
+import styled from "@emotion/styled";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
 export default function Main() {
-  const router = useRouter();
-  const loading = !router.isReady; //TODO: to use enable for fetching
-  const talkDealParam = (router.query?.talk_deal as RouteKey) ?? RouteKey.TODAY;
+  const { talk_deal, category } = useParams();
+  const talkDealParam = (talk_deal as RouteKey) ?? RouteKey.TODAY;
 
-  if (loading) return <></>;
   return (
     <>
       <Carousel slides={SLIDE} />
       <DefaultWrapper direction="column">
         <ShortcutMenu items={SHORTCUT_ITEMS} />
-        {router.query?.talk_deal === RouteKey.TOTAL ? (
+        {talk_deal === RouteKey.TOTAL ? (
           <TotalDealContainer title={DEAL_TITLE[talkDealParam]}>
-            <Nav
-              items={TOTAL_CATEGORIES}
-              curItem={router.query?.category as string}
-            />
+            <Nav items={TOTAL_CATEGORIES} curItem={category as string} />
             토탈딜 네이게이션
           </TotalDealContainer>
         ) : (
           <RowWrapper>
             <MainContainer title={DEAL_TITLE[talkDealParam]}>
-              <Nav
-                items={TODAY_CATEGORIES}
-                curItem={router.query.category as string}
-              />
+              <Nav items={TODAY_CATEGORIES} curItem={category as string} />
               <Grid>
                 {MOCK_PRODUCT_INFO.map((item) => (
                   <Link

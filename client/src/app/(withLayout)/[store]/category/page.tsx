@@ -1,3 +1,4 @@
+"use client";
 import { StoreNav } from "@/component/store/StoreNav";
 import { Url } from "next/dist/shared/lib/router/router";
 import { useRouter } from "next/navigation";
