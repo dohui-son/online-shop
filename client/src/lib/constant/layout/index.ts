@@ -1,5 +1,5 @@
-import { IconHeadItem } from "@/component/layouts/Header";
-import { NavItem } from "@/component/layouts/NavBar";
+import { IconHeadItem } from "@/component/layout/Header";
+import { NavItem } from "@/component/layout/NavBar";
 
 import { IconTruck, IconShoppingCart } from "@tabler/icons-react";
 
