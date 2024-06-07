@@ -1,6 +1,6 @@
 import { StoreNav } from "@/component/store/StoreNav";
 import { Url } from "next/dist/shared/lib/router/router";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Category() {
   const router = useRouter();

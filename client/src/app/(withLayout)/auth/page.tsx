@@ -4,7 +4,7 @@ import {
   useSignIn,
 } from "@/lib/query/SocialLogin";
 import { GetServerSidePropsContext } from "next";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export async function getServerSideProps(context: GetServerSidePropsContext) {
   const user = null; //await getUserWithSession(context.req);

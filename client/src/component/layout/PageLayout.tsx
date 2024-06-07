@@ -3,7 +3,7 @@ import { Footer } from "./Footer";
 import Image from "next/image";
 import Logo from "../../../public/asset/logo/logo.png";
 
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 import { useEffect, useMemo, useState } from "react";
 import { NavBar } from "./NavBar";

@@ -1,5 +1,5 @@
 import { KAKAO_AUTH_URL } from "@/lib/constant/socialLogin";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function SignIn() {
   const router = useRouter();

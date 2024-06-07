@@ -7,7 +7,7 @@ import { useFetchProduct } from "@/lib/query/product";
 import { useFetchProductOptions } from "@/lib/query/product/option";
 import { Option } from "@/lib/type/product/option";
 import styled from "@emotion/styled";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useFetchProductImgReview } from "@/lib/query/product/imageReview";
 

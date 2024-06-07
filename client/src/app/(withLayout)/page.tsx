@@ -1,9 +1,11 @@
+"use client";
 import { DefaultWrapper } from "@/component/Wrapper";
 
 import { SLIDE } from "@/lib/constant/carousel";
 import { Carousel } from "@/component/common/Carousel";
 import { DEAL_TITLE, SHORTCUT_ITEMS } from "@/lib/constant/shortCutMenu";
-import { useRouter } from "next/router";
+
+import { useRouter } from "next/navigation";
 import { RouteKey } from "@/lib/type/route";
 import { TotalDealContainer } from "@/component/main/TotalDealContainer";
 import { MainContainer } from "@/component/main/MainContainer";
