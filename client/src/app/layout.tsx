@@ -38,6 +38,7 @@ export default async function RootLayout({
                 key:'design-system-name',
                 enableCssLayer: true }}
           > */}
+          <div id="confirm-modal-portal" />
           {children}
           {/* </AppRouterCacheProvider> */}
         </ReactQueryClientProvider>

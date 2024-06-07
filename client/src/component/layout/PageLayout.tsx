@@ -1,3 +1,4 @@
+"use client";
 import { Header, PopoverItem } from "./Header";
 import { Footer } from "./Footer";
 import Image from "next/image";
