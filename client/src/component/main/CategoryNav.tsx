@@ -1,7 +1,7 @@
 import { Category } from "@/lib/type/category";
 import styled from "@emotion/styled";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 interface Props {
   items: Category[];
