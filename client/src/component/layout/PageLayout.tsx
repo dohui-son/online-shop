@@ -14,6 +14,7 @@ import { IconList, IconSearch } from "@tabler/icons-react";
 
 import { ConfirmModal } from "../common/Modal/ConfirmModal";
 import { usePathname } from "next/navigation";
+import { HeadNavContainer } from "./HeadNavBar/HeadNavContainer";
 
 export function PageLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -59,7 +60,8 @@ export function PageLayout({ children }: { children: React.ReactNode }) {
 
   return (
     <>
-      <Header
+      <HeadNavContainer isHome={isHome} />
+      {/* <Header
         leftComponent={
           <>
             <Image
@@ -88,7 +90,7 @@ export function PageLayout({ children }: { children: React.ReactNode }) {
         }
         rightComponent={<></>}
         // rightIconItems={iconItems}
-      />
+      /> */}
       {showSearch ? (
         <>Search Page</>
       ) : (

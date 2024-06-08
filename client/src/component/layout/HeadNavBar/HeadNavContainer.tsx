@@ -1,8 +1,10 @@
+import { LogoButton } from "@/component/common/Button/LogoButton";
+import useUserStore from "@/lib/store/user";
 import styled from "@emotion/styled";
-
 import { Icon as TablerIcon } from "@tabler/icons-react";
-import { AuthItem, HeadNavBar } from ".";
-
+import { useMemo } from "react";
+import { SimpleNavBar } from "./SimpleNavBar";
+import { AuthItem, TotalNavBar } from "./TotalNavBar";
 export interface IconHeadItem {
   icon: TablerIcon;
   onClick: () => void;
@@ -10,16 +12,30 @@ export interface IconHeadItem {
   needSignIn?: boolean;
 }
 
-export interface HeaderProps {
-  leftComponent: React.ReactNode;
-  rightComponent: React.ReactNode; // IconHeadItem[];
+interface Props {
+  isHome: boolean;
 }
 
-export function HeadNavContainer({}) {
+export function HeadNavContainer({ isHome }: Props) {
+  const { userExists } = useUserStore();
+  const authItems = useMemo(
+    () =>
+      userExists ? <AuthItem>TODO</AuthItem> : <AuthItem>로그인</AuthItem>,
+    [userExists]
+  );
+
+  if (isHome) {
+    return (
+      <TotalNavBar
+        leftComponent={<LogoButton />}
+        rightComponent={<>{authItems}</>}
+      />
+    );
+  }
   return (
-    <HeadNavBar
-      leftComponent={<></>}
-      rightComponent={<AuthItem>로그인</AuthItem>}
+    <SimpleNavBar
+      leftComponent={<LogoButton width={100} height={50} />}
+      rightComponent={<>{authItems}</>}
     />
   );
 }

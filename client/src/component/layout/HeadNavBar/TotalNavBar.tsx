@@ -7,7 +7,7 @@ export interface HeaderProps {
   rightComponent: React.ReactNode;
 }
 
-export function HeadNavBar({ leftComponent, rightComponent }: HeaderProps) {
+export function TotalNavBar({ leftComponent, rightComponent }: HeaderProps) {
   return (
     <Head>
       <HeadItem>{leftComponent}</HeadItem>
