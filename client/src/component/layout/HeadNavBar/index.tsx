@@ -2,19 +2,12 @@ import styled from "@emotion/styled";
 
 import { Icon as TablerIcon } from "@tabler/icons-react";
 
-export interface IconHeadItem {
-  icon: TablerIcon;
-  onClick: () => void;
-  href?: string;
-  needSignIn?: boolean;
-}
-
 export interface HeaderProps {
   leftComponent: React.ReactNode;
-  rightComponent: React.ReactNode; // IconHeadItem[];
+  rightComponent: React.ReactNode;
 }
 
-export function Header({ leftComponent, rightComponent }: HeaderProps) {
+export function HeadNavBar({ leftComponent, rightComponent }: HeaderProps) {
   return (
     <Head>
       <HeadItem>{leftComponent}</HeadItem>

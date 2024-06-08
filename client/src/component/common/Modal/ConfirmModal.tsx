@@ -1,3 +1,4 @@
+"use client";
 import styled from "@emotion/styled";
 import { PropsWithChildren, useCallback, useEffect } from "react";
 import ReactDOM from "react-dom";

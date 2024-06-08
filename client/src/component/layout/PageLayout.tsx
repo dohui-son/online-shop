@@ -28,24 +28,24 @@ export function PageLayout({ children }: { children: React.ReactNode }) {
     return pathname === "/" || pathname?.includes("home");
   }, [pathname]);
 
-  const iconItems = useMemo(
-    () => [
-      { icon: IconSearch, onClick: () => setShowSearch(true) },
-      ...(!signedIn
-        ? ICON_ITEMS.map((item) => ({
-            icon: item.icon,
-            onClick: () =>
-              item.needSignIn
-                ? setShowSinginModal(true)
-                : router.push(item?.href as string),
-          }))
-        : ICON_ITEMS.map((item) => ({
-            icon: item.icon,
-            onClick: () => router.push(item?.href as string),
-          }))),
-    ],
-    [signedIn]
-  );
+  // const iconItems = useMemo(
+  //   () => [
+  //     { icon: IconSearch, onClick: () => setShowSearch(true) },
+  //     ...(!signedIn
+  //       ? ICON_ITEMS.map((item) => ({
+  //           icon: item.icon,
+  //           onClick: () =>
+  //             item.needSignIn
+  //               ? setShowSinginModal(true)
+  //               : router.push(item?.href as string),
+  //         }))
+  //       : ICON_ITEMS.map((item) => ({
+  //           icon: item.icon,
+  //           onClick: () => router.push(item?.href as string),
+  //         }))),
+  //   ],
+  //   [signedIn]
+  // );
 
   useEffect(() => {
     //react-hydration-err: https://nextjs.org/docs/messages/react-hydration-error
@@ -86,7 +86,8 @@ export function PageLayout({ children }: { children: React.ReactNode }) {
             )}
           </>
         }
-        rightIconItems={iconItems}
+        rightComponent={<></>}
+        // rightIconItems={iconItems}
       />
       {showSearch ? (
         <>Search Page</>

@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 
 import { Icon as TablerIcon } from "@tabler/icons-react";
+import { AuthItem, HeadNavBar } from ".";
 
 export interface IconHeadItem {
   icon: TablerIcon;
@@ -14,23 +15,12 @@ export interface HeaderProps {
   rightComponent: React.ReactNode; // IconHeadItem[];
 }
 
-export function Header({ leftComponent, rightComponent }: HeaderProps) {
+export function HeadNavContainer({}) {
   return (
-    <Head>
-      <HeadItem>{leftComponent}</HeadItem>
-      <HeadItem>
-        {rightComponent}
-        {/* {rightIconItems?.map(({ icon, onClick }, key) => {
-          const Icon = icon;
-          return (
-            <ActionButton key={key} type="button" onClick={onClick}>
-              <Icon width={28} height={28} color={"grey"} />
-            </ActionButton>
-          );
-        })}
-        <AuthItem>로그인</AuthItem> */}
-      </HeadItem>
-    </Head>
+    <HeadNavBar
+      leftComponent={<></>}
+      rightComponent={<AuthItem>로그인</AuthItem>}
+    />
   );
 }
 
@@ -47,20 +37,6 @@ const Head = styled.header`
   font-size: 14px;
   background-color: white;
   padding: 0 16px;
-`;
-
-const HeadItem = styled.span`
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  gap: 10px;
-`;
-
-export const AuthItem = styled.span`
-  display: flex;
-  align-items: center;
-  padding: 10px 0px 10px 20px;
-  border-left: 1px solid #e3e3e3;
 `;
 
 export const PopoverItem = styled.span`
