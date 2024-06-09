@@ -1,4 +1,5 @@
 "use client";
+import { HEAD_NAVBAR_HEIGHT } from "@/component/layout/HeadNavBar/TotalNavBar";
 import styled from "@emotion/styled";
 import { PropsWithChildren, useEffect, useRef } from "react";
 
@@ -38,7 +39,7 @@ export const Container = styled.div`
   min-width: 100vw;
   height: 100%;
   position: fixed;
-  top: 79px;
+  top: ${HEAD_NAVBAR_HEIGHT}px;
   left: 0;
   right: 0;
   bottom: 0;

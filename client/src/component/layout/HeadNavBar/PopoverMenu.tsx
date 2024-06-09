@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { HEAD_NAVBAR_HEIGHT } from "./TotalNavBar";
 interface Props {
   target: React.ReactNode;
   open: boolean;
@@ -15,7 +16,7 @@ export function PopoverMenu({ target, open }: Props) {
 
 const Content = styled.div`
   position: absolute;
-  top: 70px;
+  top: ${HEAD_NAVBAR_HEIGHT - 7}px;
   width: 889px;
   padding: 20px 4px 30px;
   border: 1px solid var(--color-grey-light);

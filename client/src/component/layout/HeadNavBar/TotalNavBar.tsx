@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-
+export const HEAD_NAVBAR_HEIGHT = 64;
 import { Icon as TablerIcon } from "@tabler/icons-react";
 
 export interface HeaderProps {
@@ -29,7 +29,7 @@ export function TotalNavBar({ leftComponent, rightComponent }: HeaderProps) {
 
 const Head = styled.header`
   width: 100%;
-  height: 79px;
+  height: ${HEAD_NAVBAR_HEIGHT}px;
   padding: 0 24px;
 
   position: fixed;
