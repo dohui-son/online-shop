@@ -30,7 +30,9 @@ export function FullPageModal({
   }, [onClose]);
 
   return (
-    <div ref={modalRef}>{opened && <Container>{children}</Container>}</div>
+    <div ref={modalRef} style={{ display: "none" }}>
+      {opened && <Container>{children}</Container>}
+    </div>
   );
 }
 
