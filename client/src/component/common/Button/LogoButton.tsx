@@ -4,7 +4,7 @@ import Logo from "../../../../public/asset/logo/logo.png";
 
 type Props = Omit<ImageProps, "alt" | "src">;
 
-export function LogoButton({ width = 120, height = 70, ...props }: Props) {
+export function LogoButton({ width = 120, height = 66, ...props }: Props) {
   return (
     <Link href={"/"}>
       <Image

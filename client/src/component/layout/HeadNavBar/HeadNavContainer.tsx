@@ -21,7 +21,7 @@ interface Props {
 
 export function HeadNavContainer({ isHome }: Props) {
   const { userExists } = useUserStore();
-  const [categoryMenuOpened, setCategoryMenuOpen] = useState<boolean>(false);
+
   const mainItems = useMemo(
     () =>
       userExists ? (
@@ -43,10 +43,7 @@ export function HeadNavContainer({ isHome }: Props) {
         leftComponent={
           <>
             <LogoButton />
-            <CategoryMenuItem
-              isOpen={categoryMenuOpened}
-              onClick={() => setCategoryMenuOpen((prev) => !prev)}
-            />
+            <CategoryMenuItem />
           </>
         }
         rightComponent={<>{mainItems}</>}

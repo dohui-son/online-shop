@@ -1,23 +1,19 @@
 import { IconList } from "@tabler/icons-react";
-import { PopoverMenu, PopoverItem } from "./PopoverMenu";
-import { Dispatch, SetStateAction } from "react";
+import { useState } from "react";
+import { PopoverItem, PopoverMenu } from "./PopoverMenu";
 
-export const CategoryMenuItem = ({
-  isOpen,
-  onClick,
-}: {
-  isOpen: boolean;
-  onClick: () => void;
-}) => {
+export const CategoryMenuItem = () => {
+  const [categoryMenuOpened, setCategoryMenuOpen] = useState<boolean>(false);
   return (
     <PopoverMenu
       target={
-        <PopoverItem onClick={onClick}>
+        <PopoverItem onClick={() => setCategoryMenuOpen((prev) => !prev)}>
           <IconList />
           카테고리
         </PopoverItem>
       }
-      open={isOpen}
+      opened={categoryMenuOpened}
+      onClose={() => setCategoryMenuOpen(false)}
     />
   );
 };

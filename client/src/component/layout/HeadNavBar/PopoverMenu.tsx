@@ -1,16 +1,33 @@
 import styled from "@emotion/styled";
 import { HEAD_NAVBAR_HEIGHT } from "./TotalNavBar";
+import { useEffect, useRef } from "react";
 interface Props {
   target: React.ReactNode;
-  open: boolean;
+  opened: boolean;
+  onClose: () => void;
 }
 
-export function PopoverMenu({ target, open }: Props) {
+export function PopoverMenu({ target, opened, onClose }: Props) {
+  const modalRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        modalRef.current &&
+        !modalRef.current.contains(event.target as Node)
+      ) {
+        onClose && onClose();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [onClose]);
   return (
-    <>
+    <div ref={modalRef}>
       {target}
-      {open && <Content />}
-    </>
+      {opened && <Content />}
+    </div>
   );
 }
 
