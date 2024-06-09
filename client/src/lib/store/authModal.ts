@@ -1,4 +1,4 @@
-import create, { StoreApi, UseBoundStore } from "zustand";
+import { StoreApi, UseBoundStore, create } from "zustand";
 interface State {
   isSignInModalOpen: boolean;
   userExists: boolean;
@@ -10,24 +10,19 @@ interface Actions {
   updateUserExists: (userExists: boolean) => void;
 }
 
-const useAuthModalStore: (
-  initialState: State["userExists"]
-) => UseBoundStore<StoreApi<State & Actions>> = (initialUserExistsState) =>
+export const useAuthModalStore: UseBoundStore<StoreApi<State & Actions>> =
   create<State & Actions>((set) => ({
     isSignInModalOpen: false,
-    userExists: initialUserExistsState,
+    userExists: false,
 
     openModal: () =>
-      set(({ userExists }) => ({ isSignInModalOpen: !userExists && true })),
+      set(({ userExists }) => ({ isSignInModalOpen: true, userExists })),
     closeModal: () => set({ isSignInModalOpen: false }),
-    updateUserExists: (userExists: boolean) =>
-      set(({ closeModal }) => {
-        if (userExists) {
-          closeModal();
-          return { userExists, isSignInModalOpen: false };
+    updateUserExists: (exists) =>
+      set(() => {
+        if (exists) {
+          return { exists, isSignInModalOpen: false };
         }
-        return { userExists };
+        return { exists };
       }),
   }));
-
-export default useAuthModalStore;

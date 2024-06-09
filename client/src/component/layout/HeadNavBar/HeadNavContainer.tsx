@@ -1,13 +1,24 @@
+"use client";
 import { LogoButton } from "@/component/common/Button/LogoButton";
-import useUserStore from "@/lib/store/user";
+import { PRIVATE_MENU_ITEMS } from "@/lib/constant/layout";
+import { useAuthModalStore } from "@/lib/store/authModal";
+import { useUserStore } from "@/lib/store/user";
 import styled from "@emotion/styled";
 import { Icon as TablerIcon } from "@tabler/icons-react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useMemo } from "react";
 import { CategoryMenuItem } from "./CategoryMenuItem";
 import { SearchModalButton } from "./SearchModalButton";
-import { SimpleNavBar } from "./SimpleNavBar";
 import { AuthItem, TotalNavBar } from "./TotalNavBar";
+const ClientAuthModal = dynamic(
+  () => import("../../common/Modal/AuthModal").then((mod) => mod.AuthModal),
+  {
+    loading: () => <></>,
+    ssr: false,
+  }
+);
 export interface IconHeadItem {
   icon: TablerIcon;
   onClick: () => void;
@@ -21,57 +32,45 @@ interface Props {
 
 export function HeadNavContainer({ isHome }: Props) {
   const { userExists } = useUserStore();
+  const { openModal } = useAuthModalStore();
+  const router = useRouter();
 
-  const mainItems = useMemo(
-    () =>
-      userExists ? (
-        <AuthItem>TODO</AuthItem>
-      ) : (
-        <>
-          <SearchModalButton />
-          <Link href="/login">
-            <AuthItem>로그인</AuthItem>
-          </Link>
-        </>
-      ),
-    [userExists]
+  const mainNavItems = useMemo(
+    () => (
+      <>
+        <SearchModalButton />
+        {PRIVATE_MENU_ITEMS.map(({ icon: Icon, href }) => (
+          <Icon
+            key={href}
+            size={20}
+            color="gray"
+            onClick={() => (userExists ? router.push(href) : openModal())}
+          />
+        ))}
+        <Link href="/login">
+          {/* TODO: change button 로그아웃 조건부 렌더링 */}
+          <AuthItem>로그인</AuthItem>
+        </Link>
+      </>
+    ),
+    [userExists, openModal]
   );
 
-  if (isHome) {
-    return (
+  return (
+    <>
       <TotalNavBar
         leftComponent={
           <>
             <LogoButton />
-            <CategoryMenuItem />
+            {isHome && <CategoryMenuItem />}
           </>
         }
-        rightComponent={<>{mainItems}</>}
+        rightComponent={<>{mainNavItems}</>}
       />
-    );
-  }
-  return (
-    <SimpleNavBar
-      leftComponent={<LogoButton width={100} height={50} />}
-      rightComponent={<>{mainItems}</>}
-    />
+      <ClientAuthModal onSignInClick={() => router.push("/signIn")} />
+    </>
   );
 }
-
-const Head = styled.header`
-  border-bottom: 1px solid #e5e5e5;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  width: 100%;
-  height: 79px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 14px;
-  background-color: white;
-  padding: 0 16px;
-`;
 
 export const PopoverItem = styled.span`
   padding-left: 20px;

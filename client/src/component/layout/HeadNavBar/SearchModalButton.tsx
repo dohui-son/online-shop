@@ -15,7 +15,9 @@ export function SearchModalButton() {
       <FullPageModal
         onClose={() => setSearchModalOpened(false)}
         opened={searchModalOpened}
-      ></FullPageModal>
+      >
+        TODO - 검색창 modal contents
+      </FullPageModal>
     </>
   );
 }

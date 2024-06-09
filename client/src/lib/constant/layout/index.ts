@@ -31,17 +31,13 @@ export const NAV_ITEMS: NavItem[] = [
   },
 ];
 
-export const ICON_ITEMS: IconHeadItem[] = [
+export const PRIVATE_MENU_ITEMS: Omit<IconHeadItem, "onClick">[] = [
   {
     icon: IconTruck,
-    onClick: () => alert("TODO: Signed In needed"),
     href: "/deliver",
-    needSignIn: true,
   },
   {
     icon: IconShoppingCart,
-    onClick: () => alert("TODO: Signed In needed"),
     href: "/cart",
-    needSignIn: true,
   },
 ];

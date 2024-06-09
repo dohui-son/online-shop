@@ -5,8 +5,7 @@ import { Icon as TablerIcon } from "@tabler/icons-react";
 export interface IconHeadItem {
   icon: TablerIcon;
   onClick: () => void;
-  href?: string;
-  needSignIn?: boolean;
+  href: string;
 }
 
 export interface HeaderProps {

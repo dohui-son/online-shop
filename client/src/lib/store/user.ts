@@ -1,14 +1,13 @@
-import create, { StoreApi, UseBoundStore } from "zustand";
+import { StoreApi, UseBoundStore, create } from "zustand";
 
-const useUserStore: UseBoundStore<StoreApi<{ user: {}; userExists: boolean }>> =
-  create((set) => ({
-    user: {
-      id: null,
-    },
-    userExists: false,
+export const useUserStore: UseBoundStore<
+  StoreApi<{ user: {}; userExists: boolean }>
+> = create((set) => ({
+  user: {
+    id: null,
+  },
+  userExists: false,
 
-    setUser: (user: {}) => set({ user: user, userExists: true }),
-    removeUser: () => set({ user: { id: null }, userExists: false }),
-  }));
-
-export default useUserStore;
+  setUser: (user: {}) => set({ user: user, userExists: true }),
+  removeUser: () => set({ user: { id: null }, userExists: false }),
+}));

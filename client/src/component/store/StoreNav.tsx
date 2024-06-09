@@ -17,46 +17,47 @@ interface Props {
   currentPath: string;
 }
 export function StoreNav({ title, storeId, onClick, currentPath }: Props) {
-  const getStoreId = (path: string) => path.split("/").slice(-1)[0];
+  //const getStoreId = (path: string) => path?.split("/")?.slice(-1)[0];
   return (
-    <MainContainer>
-      <Title>{title}</Title>
-      <Link href={`/storeId/profile`}>
-        <StoreInfo>
-          <IconInfoCircle size={15} color="#999" />
-          <p>스토어정보</p>
-        </StoreInfo>
-      </Link>
+    <></>
+    // <MainContainer>
+    //   <Title>{title}</Title>
+    //   <Link href={`/storeId/profile`}>
+    //     <StoreInfo>
+    //       <IconInfoCircle size={15} color="#999" />
+    //       <p>스토어정보</p>
+    //     </StoreInfo>
+    //   </Link>
 
-      <DefaultWrapper>
-        <LowerContainer>
-          <TabWrapper>
-            {NAV_ITEMS.map(({ title, path, routerQuery }, key) => (
-              <Tab
-                role="tab"
-                key={key}
-                selected={getStoreId(currentPath).includes(
-                  !path ? storeId : path
-                )}
-                onClick={() =>
-                  onClick({
-                    pathname: `/${storeId}/${path}`,
-                    query: routerQuery,
-                  })
-                }
-              >
-                {title}
-              </Tab>
-            ))}
-          </TabWrapper>
-          <SearchWrapper>
-            <SearchInput placeholder={`${title} 상품검색`} />
-            <IconSearch color="#999" size={22} />
-          </SearchWrapper>
-        </LowerContainer>
-      </DefaultWrapper>
-      <BorderLine />
-    </MainContainer>
+    //   <DefaultWrapper>
+    //     <LowerContainer>
+    //       <TabWrapper>
+    //         {NAV_ITEMS.map(({ title, path, routerQuery }, key) => (
+    //           <Tab
+    //             role="tab"
+    //             key={key}
+    //             selected={getStoreId(currentPath).includes(
+    //               !path ? storeId : path
+    //             )}
+    //             onClick={() =>
+    //               onClick({
+    //                 pathname: `/${storeId}/${path}`,
+    //                 query: routerQuery,
+    //               })
+    //             }
+    //           >
+    //             {title}
+    //           </Tab>
+    //         ))}
+    //       </TabWrapper>
+    //       <SearchWrapper>
+    //         <SearchInput placeholder={`${title} 상품검색`} />
+    //         <IconSearch color="#999" size={22} />
+    //       </SearchWrapper>
+    //     </LowerContainer>
+    //   </DefaultWrapper>
+    //   <BorderLine />
+    // </MainContainer>
   );
 }
 
