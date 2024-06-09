@@ -25,3 +25,14 @@ const Content = styled.div`
   box-sizing: border-box;
   z-index: 2;
 `;
+
+export const PopoverItem = styled.span`
+  padding-left: 20px;
+  border-left: 1px solid #e3e3e3;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #4684e9;
+  cursor: pointer;
+`;

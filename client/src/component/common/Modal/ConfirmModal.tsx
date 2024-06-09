@@ -64,7 +64,7 @@ export function ConfirmModal({
         </Overlay>
       )}
     </div>,
-    document.getElementById("confirm-modal-portal") as HTMLElement
+    (document?.getElementById("confirm-modal-portal") as HTMLElement) || null
   );
 }
 

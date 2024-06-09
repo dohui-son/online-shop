@@ -39,7 +39,7 @@ const Head = styled.header`
   justify-content: space-between;
   font-size: 14px;
   background-color: white;
-  padding: 0 16px;
+  padding: 0 24px;
 `;
 
 const HeadItem = styled.span`

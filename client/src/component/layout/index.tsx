@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { NavBar } from "./NavBar";
 import { ICON_ITEMS, NAV_ITEMS } from "@/lib/constant/layout";
-import { PopoverMenu } from "./PopoverMenu";
+import { PopoverMenu } from "./HeadNavBar/PopoverMenu";
 import { IconList, IconSearch } from "@tabler/icons-react";
 
 import { ConfirmModal } from "../common/Modal/ConfirmModal";

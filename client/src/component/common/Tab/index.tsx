@@ -1,4 +1,3 @@
-import { COLOR } from "@/lib/constant/style/color";
 import styled from "@emotion/styled";
 import { Key } from "react";
 
