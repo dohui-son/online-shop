@@ -23,7 +23,7 @@ const Content = styled.div`
   background-color: #fff;
   white-space: nowrap;
   box-sizing: border-box;
-  z-index: 2;
+  z-index: 90;
 `;
 
 export const PopoverItem = styled.span`

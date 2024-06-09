@@ -1,13 +1,13 @@
 import { LogoButton } from "@/component/common/Button/LogoButton";
 import useUserStore from "@/lib/store/user";
 import styled from "@emotion/styled";
-import { IconList, Icon as TablerIcon } from "@tabler/icons-react";
+import { Icon as TablerIcon } from "@tabler/icons-react";
+import Link from "next/link";
 import { useMemo, useState } from "react";
+import { CategoryMenuItem } from "./CategoryMenuItem";
+import { SearchModalButton } from "./SearchModalButton";
 import { SimpleNavBar } from "./SimpleNavBar";
 import { AuthItem, TotalNavBar } from "./TotalNavBar";
-import Link from "next/link";
-import { PopoverMenu } from "./PopoverMenu";
-import { CategoryMenuItem } from "./CategoryMenuItem";
 export interface IconHeadItem {
   icon: TablerIcon;
   onClick: () => void;
@@ -22,14 +22,17 @@ interface Props {
 export function HeadNavContainer({ isHome }: Props) {
   const { userExists } = useUserStore();
   const [categoryMenuOpened, setCategoryMenuOpen] = useState<boolean>(false);
-  const authItems = useMemo(
+  const mainItems = useMemo(
     () =>
       userExists ? (
         <AuthItem>TODO</AuthItem>
       ) : (
-        <Link href="/login">
-          <AuthItem>로그인</AuthItem>
-        </Link>
+        <>
+          <SearchModalButton />
+          <Link href="/login">
+            <AuthItem>로그인</AuthItem>
+          </Link>
+        </>
       ),
     [userExists]
   );
@@ -46,14 +49,14 @@ export function HeadNavContainer({ isHome }: Props) {
             />
           </>
         }
-        rightComponent={<>{authItems}</>}
+        rightComponent={<>{mainItems}</>}
       />
     );
   }
   return (
     <SimpleNavBar
       leftComponent={<LogoButton width={100} height={50} />}
-      rightComponent={<>{authItems}</>}
+      rightComponent={<>{mainItems}</>}
     />
   );
 }

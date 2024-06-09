@@ -28,18 +28,21 @@ export function TotalNavBar({ leftComponent, rightComponent }: HeaderProps) {
 }
 
 const Head = styled.header`
-  border-bottom: 1px solid #e5e5e5;
-  position: sticky;
-  top: 0;
-  z-index: 100;
   width: 100%;
   height: 79px;
+  padding: 0 24px;
+
+  position: fixed;
+  top: 0;
+  z-index: 100;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   font-size: 14px;
   background-color: white;
-  padding: 0 24px;
+  border-bottom: 1px solid #e5e5e5;
 `;
 
 const HeadItem = styled.span`
