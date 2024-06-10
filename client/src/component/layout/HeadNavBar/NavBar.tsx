@@ -1,28 +1,16 @@
 import styled from "@emotion/styled";
 export const HEAD_NAVBAR_HEIGHT = 64;
-import { Icon as TablerIcon } from "@tabler/icons-react";
 
-export interface HeaderProps {
+interface Props {
   leftComponent: React.ReactNode;
   rightComponent: React.ReactNode;
 }
 
-export function TotalNavBar({ leftComponent, rightComponent }: HeaderProps) {
+export function NavBar({ leftComponent, rightComponent }: Props) {
   return (
     <Head>
       <HeadItem>{leftComponent}</HeadItem>
-      <HeadItem>
-        {rightComponent}
-        {/* {rightIconItems?.map(({ icon, onClick }, key) => {
-          const Icon = icon;
-          return (
-            <ActionButton key={key} type="button" onClick={onClick}>
-              <Icon width={28} height={28} color={"grey"} />
-            </ActionButton>
-          );
-        })}
-        <AuthItem>로그인</AuthItem> */}
-      </HeadItem>
+      <HeadItem>{rightComponent}</HeadItem>
     </Head>
   );
 }

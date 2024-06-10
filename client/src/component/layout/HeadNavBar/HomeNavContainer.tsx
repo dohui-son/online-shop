@@ -9,9 +9,10 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMemo } from "react";
-import { CategoryMenuItem } from "./CategoryMenuItem";
+import { CategoryMenuItem } from "./item/CategoryMenuItem";
 import { SearchModalButton } from "./SearchModalButton";
-import { AuthItem, TotalNavBar } from "./TotalNavBar";
+import { AuthItem, NavBar } from "./NavBar";
+import { HomeNavItemContainer } from "./item/MainNavItemContainer";
 const ClientAuthModal = dynamic(
   () => import("../../common/Modal/AuthModal").then((mod) => mod.AuthModal),
   {
@@ -58,11 +59,16 @@ export function HeadNavContainer({ isHome }: Props) {
 
   return (
     <>
-      <TotalNavBar
+      <NavBar
         leftComponent={
           <>
             <LogoButton />
-            {isHome && <CategoryMenuItem />}
+            {isHome && (
+              <>
+                <HomeNavItemContainer />
+                <CategoryMenuItem />
+              </>
+            )}
           </>
         }
         rightComponent={<>{mainNavItems}</>}
@@ -71,17 +77,6 @@ export function HeadNavContainer({ isHome }: Props) {
     </>
   );
 }
-
-export const PopoverItem = styled.span`
-  padding-left: 20px;
-  border-left: 1px solid #e3e3e3;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  color: #4684e9;
-  cursor: pointer;
-`;
 
 export const ActionButton = styled.button`
   appearance: none;

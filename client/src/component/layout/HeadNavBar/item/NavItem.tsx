@@ -2,33 +2,28 @@ import styled from "@emotion/styled";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export interface NavItem {
+export interface TextNavItemProps {
   title: string;
   href: string;
   withAsterisk?: boolean;
 }
 
-interface Props {
-  navItems: NavItem[];
-}
-
-export function NavBar({ navItems }: Props) {
+/**
+ * TextNavItems should be used in the HeadNavContainer component.
+ */
+function TextNavItem({ title, href, withAsterisk = false }: TextNavItemProps) {
   const pathname = usePathname();
 
   return (
-    <NavWrapper>
-      {navItems?.map(({ title, href, withAsterisk }, key) => (
-        <Link href={href} key={title + href + "NavigationItem"} shallow>
-          <Nav withAsterisk={withAsterisk} selected={pathname == href}>
-            {title}
-          </Nav>
-        </Link>
-      ))}
-    </NavWrapper>
+    <Link href={href} shallow>
+      <Nav withAsterisk={withAsterisk} selected={pathname == href}>
+        {title}
+      </Nav>
+    </Link>
   );
 }
 
-const NavWrapper = styled.div`
+const TextNavItemContainer = styled.div`
   width: auto;
   height: auto;
   padding: 0 12px 0 42px;
@@ -45,3 +40,8 @@ const Nav = styled.nav<{ withAsterisk?: boolean; selected: boolean }>`
     font-weight: 700;
   }
 `;
+
+export default {
+  TextNavItem,
+  TextNavItemContainer,
+};

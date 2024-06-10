@@ -1,6 +1,6 @@
 import { IconList } from "@tabler/icons-react";
 import { useState } from "react";
-import { PopoverItem, PopoverMenu } from "./PopoverMenu";
+import { PopoverItem, PopoverMenu } from "../PopoverMenu";
 
 export const CategoryMenuItem = () => {
   const [categoryMenuOpened, setCategoryMenuOpen] = useState<boolean>(false);

@@ -1,8 +1,6 @@
 "use client";
 import { Footer } from "./Footer";
 
-import { useRouter } from "next/navigation";
-
 import { PropsWithChildren, useMemo, useState } from "react";
 
 import dynamic from "next/dynamic";
@@ -10,7 +8,7 @@ import { usePathname } from "next/navigation";
 
 const ClientHeadNavContainer = dynamic(
   () =>
-    import("./HeadNavBar/HeadNavContainer").then((mod) => mod.HeadNavContainer),
+    import("./HeadNavBar/HomeNavContainer").then((mod) => mod.HeadNavContainer),
   {
     loading: () => <></>,
     ssr: false,

@@ -1,5 +1,5 @@
 "use client";
-import { HEAD_NAVBAR_HEIGHT } from "@/component/layout/HeadNavBar/TotalNavBar";
+import { HEAD_NAVBAR_HEIGHT } from "@/component/layout/HeadNavBar/NavBar";
 import styled from "@emotion/styled";
 import { PropsWithChildren, useEffect, useRef } from "react";
 
@@ -56,26 +56,5 @@ export const InnerComponent = styled.div`
   color: #666;
   letter-spacing: -1px;
   font-size: 14px;
-  background-color: #fff;
-`;
-
-const ButtonWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-`;
-
-const Button = styled.button`
-  cursor: pointer;
-  display: block;
-  width: 100%;
-  height: 50px;
-  border: 1px solid #e5e5e5;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 50px;
-  color: #333;
-  text-align: center;
   background-color: #fff;
 `;

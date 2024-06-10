@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { HEAD_NAVBAR_HEIGHT } from "./TotalNavBar";
+import { HEAD_NAVBAR_HEIGHT } from "./NavBar";
 import { useEffect, useRef } from "react";
 interface Props {
   target: React.ReactNode;
