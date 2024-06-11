@@ -32,7 +32,8 @@ const TextNavItemContainer = styled.div`
 `;
 
 const Nav = styled.nav<{ withAsterisk?: boolean; selected: boolean }>`
-  padding: 31px 0px 29px;
+  display: flex;
+  padding: 22px 0;
   font-weight: ${({ selected }) => (selected ? 700 : 500)};
   border-bottom: ${({ selected }) =>
     selected ? "3px solid black" : "3px solid transparent"};
