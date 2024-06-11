@@ -1,8 +1,6 @@
-import { IconHeadItem } from "@/component/layout/Header";
-import { NavItem } from "@/component/layout/NavBar";
-
-import { IconTruck, IconShoppingCart } from "@tabler/icons-react";
 import { TextNavItemProps } from "@/component/layout/HeadNavBar/item/NavItem";
+import { IconHeadItem } from "@/lib/type/layout";
+import { IconShoppingCart, IconTruck } from "@tabler/icons-react";
 export const HOME_NAV_ITEMS: TextNavItemProps[] = [
   {
     title: "홈",
