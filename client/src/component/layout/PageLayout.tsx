@@ -1,10 +1,12 @@
 "use client";
 import { Footer } from "./Footer";
 
-import { PropsWithChildren, useMemo, useState } from "react";
+import { useMemo } from "react";
 
 import dynamic from "next/dynamic";
 import { usePathname } from "next/navigation";
+import styled from "@emotion/styled";
+import { HEAD_NAVBAR_HEIGHT } from "./HeadNavBar/NavBar";
 
 const ClientHeadNavContainer = dynamic(
   () =>
@@ -14,18 +16,9 @@ const ClientHeadNavContainer = dynamic(
     ssr: false,
   }
 );
-// const ClientConfirmModal = dynamic(
-//   () => import("../common/Modal/ConfirmModal").then((mod) => mod.ConfirmModal),
-//   {
-//     loading: () => <></>,
-//     ssr: false,
-//   }
-// );
-interface Props {}
 
-export function PageLayout({ children }: PropsWithChildren<Props>) {
+export function PageLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const [menuOpened, setMenuOpen] = useState<boolean>(false);
 
   const isHome = useMemo(() => {
     return pathname === "/" || pathname?.includes("home");
@@ -34,8 +27,12 @@ export function PageLayout({ children }: PropsWithChildren<Props>) {
   return (
     <>
       <ClientHeadNavContainer isHome={isHome} />
-      {children}
+      <Wrapper>{children}</Wrapper>
       <Footer />
     </>
   );
 }
+
+const Wrapper = styled.div`
+  margin-top: ${HEAD_NAVBAR_HEIGHT}px;
+`;

@@ -36,7 +36,7 @@ export function HeadNavContainer({ isHome }: Props) {
   const { openModal } = useAuthModalStore();
   const router = useRouter();
 
-  const mainNavItems = useMemo(
+  const rightNavItems = useMemo(
     () => (
       <>
         <SearchModalButton />
@@ -71,7 +71,7 @@ export function HeadNavContainer({ isHome }: Props) {
             )}
           </>
         }
-        rightComponent={<>{mainNavItems}</>}
+        rightComponent={<>{rightNavItems}</>}
       />
       <ClientAuthModal onSignInClick={() => router.push("/signIn")} />
     </>

@@ -30,9 +30,7 @@ export function FullPageModal({
   }, [onClose]);
 
   return (
-    <div ref={modalRef} style={{ display: "none" }}>
-      {opened && <Container>{children}</Container>}
-    </div>
+    <div ref={modalRef}>{opened && <Container>{children}</Container>}</div>
   );
 }
 
@@ -40,12 +38,14 @@ export const Container = styled.div`
   width: 100%;
   min-width: 100vw;
   height: 100%;
+
   position: fixed;
   top: ${HEAD_NAVBAR_HEIGHT}px;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 80;
+
   background-color: white;
 `;
 
