@@ -20,7 +20,7 @@ export function StoreNav({ title, storeId, onClick, currentPath }: Props) {
   //const getStoreId = (path: string) => path?.split("/")?.slice(-1)[0];
   return (
     <></>
-    // <MainContainer>
+    // <MainContainer> TODO: refactor
     //   <Title>{title}</Title>
     //   <Link href={`/storeId/profile`}>
     //     <StoreInfo>
