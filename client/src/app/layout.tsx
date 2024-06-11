@@ -2,7 +2,6 @@ import ReactQueryClientProvider from "@/lib/util/reactQueryProvider";
 import "@/styles/Home.module.css";
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { QueryClient } from "react-query";
 
 export const metadata: Metadata = {
   title: "Shopping-Mall",
@@ -38,7 +37,7 @@ export default async function RootLayout({
                 key:'design-system-name',
                 enableCssLayer: true }}
           > */}
-          <div id="confirm-modal-portal" />
+          <div id="confirm-modal-portal"></div>
           {children}
           {/* </AppRouterCacheProvider> */}
         </ReactQueryClientProvider>

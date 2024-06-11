@@ -1,9 +1,7 @@
-import { IconHeadItem } from "@/component/layout/Header";
-import { NavItem } from "@/component/layout/NavBar";
-
-import { IconTruck, IconShoppingCart } from "@tabler/icons-react";
-
-export const NAV_ITEMS: NavItem[] = [
+import { TextNavItemProps } from "@/component/layout/HeadNavBar/item/NavItem";
+import { IconHeadItem } from "@/lib/type/layout";
+import { IconShoppingCart, IconTruck } from "@tabler/icons-react";
+export const HOME_NAV_ITEMS: TextNavItemProps[] = [
   {
     title: "홈",
     href: "/",
@@ -25,23 +23,15 @@ export const NAV_ITEMS: NavItem[] = [
     title: "기획전",
     href: "/home/promotion",
   },
-  {
-    title: "연말결산",
-    href: "/home/pcms/documents/event_id",
-  },
 ];
 
-export const ICON_ITEMS: IconHeadItem[] = [
+export const PRIVATE_MENU_ITEMS: Omit<IconHeadItem, "onClick">[] = [
   {
     icon: IconTruck,
-    onClick: () => alert("TODO: Signed In needed"),
     href: "/deliver",
-    needSignIn: true,
   },
   {
     icon: IconShoppingCart,
-    onClick: () => alert("TODO: Signed In needed"),
     href: "/cart",
-    needSignIn: true,
   },
 ];
